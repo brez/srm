@@ -1,0 +1,38 @@
+body {
+  font-family: 'Reenie Beanie',  Monaco;
+  font-size: 20pt;
+  margin: 20px 40px;
+}
+td {
+  padding: 0 25px 0 0;
+}
+a {
+  color: #f00;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.red {
+  color: #f00;
+}
+.yellow {
+  color: #ff0;
+}
+.legal {
+  font-size: 14pt;
+  float: left;
+}
+.logo {
+  float: left;
+}
+#traks {
+  float: right;
+  width: 50%;
+}
+#text {
+  width: 45%;
+}
+#popup-trak {
+  margin: 10px 0 0 10px;
+}
