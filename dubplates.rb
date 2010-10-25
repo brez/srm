@@ -27,7 +27,7 @@ puts <<-TOP
 traks = [
 '2-leged-kat',
 'ballistic_impulse',
-'barbara-ann-kiss-my-ass-rmx.mp3',
+'barbara-ann-kiss-my-ass-rmx',
 'battery_tunnel_10-15',
 'black_angeles',
 'black_thursday',
@@ -35,13 +35,13 @@ traks = [
 'cash_rules__f_wu_tang_clan',
 'chk-ths',
 'chomsky-southvietnam',
-'close-air-support.mp3',
+'close-air-support',
 'colonel-kurtz',
 'columbian_necktie',
 'elevators--f-outkast',
 'end_axe',
-'deep-in-the-rhine.mp3',
-'disimilation.mp3',
+'deep-in-the-rhine',
+'disimilation',
 'how-high--f-method-man',
 'illtek_intro',
 'illtekonics_epilogue',
@@ -50,31 +50,31 @@ traks = [
 'imperial-march',
 'imperial_overdrive',
 'jive-fly',
-'joint-call-for-fire.mp3',
+'joint-call-for-fire',
 'last_call',
 'mid_knight_rider',
 'mind-wash-anza-borrego',
 'razing_hell',
-'red-moon-cut.mp3',
-'red-moon-refactor.mp3',
+'red-moon-cut',
+'red-moon-refactor',
 'resurrektion',
 'ring_the_alarm__f_tenor_saw',
 'say_goodnite_to_da_bad_guy',
 'sinister',
 'southern_march',
-'strafing_run.mp3',
-'subterranean.mp3',
+'strafing_run',
+'subterranean',
 'subterfuge',
 'suspension_of_disbelief',
 'teknkl-diskourse',
 'teknkl-diskourse_feat_2short',
-'tek-support.mp3',
+'tek-support',
 'there-goes-da-hood--f-body-count',
 'thirty-four',
 'unda_mi_sensi',
 'walking_on_the_moon',
-'war_pigs_metalcore--black-sabbath-cover.mp3',
-'wessex_allstars.mp3',
+'war_pigs_metalcore--black-sabbath-cover',
+'wessex_allstars',
 'west_fourth' ]
    
 traks.each do |trak|
@@ -112,7 +112,7 @@ BACK before the all the digital toys we have now, you had to cut music onto an a
 What follows is primarily traks that were tested in front of a live audience / legit sound system. You want to confirm two things: 1) the crowd seems to moving / keeping up with the changes  2) the trak itself sounds good on a live PA. Get the 2nd one right and you can almost guarantee the 1st. Drum and Bass is interesting music because it pushes the contradictions of dancibility and complexity.. it takes your mind on an elated journey of limitless direction while holding your body close enough to the beat to still shake your ass, the Divine Duality. Like a good conversion takes you on a journey of discovery or familarity, strip out the words, and what's left is Drum and Bass. Of course some of these dubplates made it onto vinyl, i.e. early editions of eventual records. 
       </p>
     </div>
-      <img class="logo" src="SRM.jpg" width="200px"/>
+      <img class="logo" src="SRM-recordings.jpg" width="200px"/>
       <p class="legal">
         AN SRM RECORDINGS PRODUCTION <br/>
         &copy;2010 SRM RECORDINGS, BROOKLYN NY<br/>
