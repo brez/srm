@@ -26,6 +26,9 @@ a:hover {
 .logo {
   float: left;
 }
+#message {
+  font-size: 18pt;
+}
 #traks {
   float: right;
   width: 50%;

@@ -3,7 +3,7 @@ puts <<-TOP
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>FORTUNE FAVORS THE BOLD</title>
+    <title>LET ME SERENADE THE STREETS OF LA</title>
     <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
     <link href='rise.css' rel='stylesheet' type='text/css'>
     <script src="js/jquery.js" type="text/javascript"></script>
@@ -19,7 +19,7 @@ puts <<-TOP
   <div id="header">
   </div>
   <div id="main">
-    <h1>THE RISE AND FALL OF SUPERIOR READY MIX <span class="yellow">(SRM)</span> <br/> &nbsp;<span class="red">BEGINNINGS</span></h1>
+    <h1>SUPERIOR READY MIX RECORDINGS &nbsp;<span class="yellow">(SRM)</span> <br/> &nbsp;<span class="red">DUBPLATES</span></h1>
     <div id="traks">
       <table>
       TOP
@@ -83,6 +83,7 @@ What follows is the 'BEGINNINGS', a crude set of complete recordings (from tape)
       <img class="logo" src="SRM-recordings.jpg" width="200px"/>
       <p class="legal">
         AN SRM RECORDINGS PRODUCTION <br/>
+        <span id="message">A DECADE OF CONCRETE..</span><br/>
         &copy;2010 SRM RECORDINGS, BROOKLYN NY<br/>
         ALL TEXT IS PUBLIC DOMAIN
       </p>
