@@ -23,11 +23,10 @@ puts <<-TOP
     <div id="traks">
       <table>
       TOP
-      
+
 traks = [
-'2-leged-kat',
+'andromida',
 'ballistic_impulse',
-'barbara-ann-kiss-my-ass-rmx',
 'battery_tunnel_10-15',
 'black_angeles',
 'black_thursday',
@@ -43,6 +42,7 @@ traks = [
 'end_axe',
 'deep-in-the-rhine',
 'disimilation',
+'dub1ne',
 'dont-get-me-started',
 'how-high--f-method-man',
 'illtek_intro',
@@ -58,6 +58,7 @@ traks = [
 'killtacular',
 'last_call',
 'mid_knight_rider',
+'microkorg-gangsta',
 'mind-wash-anza-borrego',
 'our_choice_is_ours_SRM',
 'razing_hell',
@@ -68,12 +69,15 @@ traks = [
 'richotte',
 'ring_the_alarm__f_tenor_saw',
 'say_goodnite_to_da_bad_guy',
+'seekndestroy',
+'selecta',
 'sinister',
 'southern_march',
 'strafing_run',
 'subterranean',
 'subterfuge',
 'suspension_of_disbelief',
+'tek11-resurrection',
 'teknkl-diskourse',
 'teknkl-diskourse_feat_2short',
 'tek-support',
@@ -85,7 +89,8 @@ traks = [
 'walking_on_the_moon',
 'war_pigs_metalcore--black-sabbath-cover',
 'wessex_allstars',
-'west_fourth' ]
+'west_fourth',
+'2-leged-kat']
    
 traks.each do |trak|
   puts <<-TRKS
