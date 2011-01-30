@@ -1,21 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>LET ME SERENADE THE STREETS OF LA</title>
-    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
-    <link href='rise.css' rel='stylesheet' type='text/css'>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <link href="js/facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
-    <script src="js/facebox/facebox.js" type="text/javascript"></script>
-    <script>
-      jQuery(document).ready(function($) {
-        $('a[rel*=facebox]').facebox() 
-      })
-    </script>
-  </head>
-  <body>
-    <div id="main">
+require 'utils'
+
+puts TOP
+
+puts <<-TEXT      
       <div id="text">
         <p>
 SUPERIOR READY MIX (SRM) unofficially formed over the span of a few years and countless house parties as a DRUMNBASS crew, specializing in its unique form of renegade skratch precision. SRM soon worked with the such legendary underground crews as 45PSI, DRUMZ, BULLETPROOF, RUFFNECK ALLIANCE, LARGEHUMAN, PROPECHY to produce events of their own from local one-offs and weekly/monthly events to the first ever FM DRUMNBASS radio program in Southern California -> 'EKG' showcased local and nationwide DJs/Producers and ran every saturday night for 17 months, on the now defunct, 92/1FM under the direction of the legendary <a href="http://www.signonsandiego.com/feature/524/halloran.html">Mike Halloran</a>. 
@@ -29,22 +16,22 @@ This archive represents the entirety of what SRM has produced starting from 1999
       </div>   
       <div id="traks">
         <table>
-         <tr><td class="red big"><a href="vinyl.html">VINYL</a></td></tr>
-         <tr><td class="red big"><a href="dubplates.html">DUBPLATES</a></td></tr>
-         <tr><td class="red big"><a href="mixes.html">MIXES</a></td></tr>
-         <tr><td class="red big"><a href="beginnings.html">BEGINNINGS</a></td></tr>
-         <tr><td class="red big"><a href="images.html">IMAGES</a></td></tr>
-         <tr><td class="red big"><a href="+.html">+</a></td></tr>
-        </table>
-      </div> <!-- end traks -->
-      <div style="clear: both"></div>
-      <div id="info">
-        <p style="margin-bottom: 0">
-          AN SRM RECORDINGS PRODUCTION <span id="message">A DECADE OF CONCRETE..</span> &copy;2001-2011 SRM RECORDINGS, BROOKLYN NY
-        </p>
-      </div>
-    </div> <!-- end main -->
-    <div style="clear:both"></div>
-    <div id="footer"></div>
-  </body>
-</html>
+      TEXT
+
+traks = [
+'vinyl',
+'dubplates',
+'mixes',
+'beginnings',
+'images',
+'+']
+   
+traks.each do |trak|
+  puts <<-TRKS
+         <tr><td class="red big"><a href="#{trak}.html">#{trak.upcase}</a></td></tr>
+  TRKS
+end
+    
+puts MID
+    
+puts TAIL

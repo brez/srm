@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+}
+
+html {
+height: 100%;
+}
 body {
+  height: 100%;
   font-family: 'Reenie Beanie',  Monaco;
   font-size: 20pt;
-  margin: 20px 40px;
+  background: #fff url('images/srm-bg.png') repeat-y 50% 0%;
 }
 td {
   padding: 0 25px 0 0;
@@ -13,29 +21,58 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h1 {
+  margin: 30px 0 20px 30px;
+  font-size: 40pt;
+}
+p {
+  margin-bottom: 10px;
+}
+#main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -10em;
+  padding-top: 20px;
+}
+#footer {
+  background: url(images/srm-footer.png);
+  height: 10em;
+  opacity: 50%;
+}
 .red {
   color: #f00;
 }
 .yellow {
   color: #ff0;
 }
-.legal {
-  font-size: 14pt;
-  float: left;
+.meta {
+  font-size: 18pt;
 }
-.logo {
-  float: left;
+.big {
+  font-size: 58pt;
+}
+.popup-trak {
+  margin: 10px 0 0 10px;
 }
 #message {
   font-size: 18pt;
 }
 #traks {
+  font-size: 28pt;
+  margin-left: 25px;
+  text-align: right;
+}
+#traks table {
   float: right;
-  width: 50%;
 }
 #text {
-  width: 45%;
+  width: 50%;
+  height: 80%;
+  float: right;
+  margin-right: 25px;
 }
-#popup-trak {
-  margin: 10px 0 0 10px;
+#info {
+  font-size: 14pt;
+  margin: 15px 0 0 20px;
 }
