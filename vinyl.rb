@@ -2,7 +2,7 @@ require 'utils'
 
 puts TOP
 
-puts <<-TEXT      
+puts <<-TEXT
       <div id="text">
         <p>
 IN TRUE independent form, SRM sold the bulk of their hardware to finance the first record, fortunately selling them all and getting back on track producing parties and additional records in short order. From there SRM went on to publish more or our thier work branching out to include the likes of ZYFO (SRM004), ABBY NORML (SRM005), the LOS ANGELES Legend, R.A.W. (SRM007) aka 6BLOCC, and the Canadian Powerhouse, CAPITAL-J (SRM009).
@@ -40,14 +40,14 @@ traks.sort.each do |trak, catalog|
          <tr><td><span class="meta">#{catalog}</span> <a href="##{trak}" rel="facebox">#{trak.upcase[7..-1]}</a></td></tr>
   TRKS
 end
-    
+
 puts <<-MID
     </table>
     </div>
 MID
 
 traks.each do |trak, genre|
-  puts pop(trak)
+  puts pop(trak, 'vinyl')
 end
-    
+
 puts TAIL

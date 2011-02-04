@@ -38,13 +38,13 @@ TAIL = <<-TAIL
 </html>
 TAIL
 
-def pop(trak)
+def pop(trak, category)
   <<-POP
       <div id="#{trak}" style="display:none;" class="popup-trak">
 	      #{trak.upcase} <br/>
         <object type="application/x-shockwave-flash" data="player/player_mp3.swf" width="200" height="20">
           <param name="movie" value="player/player_mp3.swf" />
-          <param name="FlashVars" value="mp3=http://s3.amazonaws.com/srm-dubplates/#{trak}.mp3&showvolume=1&showinfo=1&bgcolor1=ff0b0f&bgcolor2=a40005" />
+          <param name="FlashVars" value="mp3=http://s3.amazonaws.com/srm-#{category}/#{trak}.mp3&showvolume=1&showinfo=1&bgcolor1=ff0b0f&bgcolor2=a40005" />
         </object>
       </div>
     POP
