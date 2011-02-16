@@ -2,8 +2,11 @@ require 'utils'
 
 puts TOP
 
-puts <<-TEXT      
+puts <<-TEXT
       <div id="text">
+<p style="border: 6px solid yellow; margin: 0 10px 10px 10px; padding: 10px; font-size: 20pt;">
+  SRM RECORDINGS presents the long awaited 10th release, a double album <a href="#">explosion</a> of DRUMNBASS (red) and DUBSTEP (yellow) - Listen / Buy it <a href="vinyl.html">NOW</a>.. 
+ </p>
         <p>
 SUPERIOR READY MIX (SRM) unofficially formed over the span of a few years and countless house parties as a DRUMNBASS crew, specializing in its unique form of renegade skratch precision. SRM soon worked with the such legendary underground crews as 45PSI, DRUMZ, BULLETPROOF, RUFFNECK ALLIANCE, LARGEHUMAN, PROPECHY to produce events of their own from local one-offs and weekly/monthly events to the first ever FM DRUMNBASS radio program in Southern California -> 'EKG' showcased local and nationwide DJs/Producers and ran every saturday night for 17 months, on the now defunct, 92/1FM under the direction of the legendary <a href="http://www.signonsandiego.com/feature/524/halloran.html">Mike Halloran</a>. 
         </p>
