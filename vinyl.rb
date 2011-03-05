@@ -32,11 +32,7 @@ traks = {
 'srm008-south-of-heaven' => '(SRM008)',
 'srm008-who-dem' => '(SRM008)',
 'srm009-bang-yo-head_capital-j' => '(SRM009)',
-'srm009-rumble-jungle_capital-j' => '(SRM009)',
-'srm010-imperial-overdrive' => '(SRM010)',
-'srm010-some-sizzler-trak' => '(SRM010)',
-'srm010-da-world' => '(SRM010)',
-'srm010-teknical-discourse' => '(SRM010)',
+'srm009-rumble-jungle_capital-j' => '(SRM009)'
 }
 
 
