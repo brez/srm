@@ -2,10 +2,15 @@ require 'utils'
 
 puts TOP
 
+covers = 9.times.map {|rec| "" }.join 
+
 puts <<-TEXT
       <div id="text">
+        <p class="important" style="width: 429px; text-align: center">
+          <img src='images/srm001.png'/>
+        </p>
         <p>
-IN TRUE independent form, SRM sold the bulk of their hardware to finance the first record, fortunately selling them all and getting back on track producing parties and additional records in short order. From there SRM went on to publish more or our thier work branching out to include the likes of ZYFO (SRM004), ABBY NORML (SRM005), the LOS ANGELES Legend, R.A.W. (SRM007) aka 6BLOCC, and the Canadian Powerhouse, CAPITAL-J (SRM009).
+IN TRUE independent form, SRM sold the bulk of their hardware to finance the first record, fortunately selling them all and getting back on track producing parties and additional records in short order. From there SRM went on to publish more of thier work branching out to include the likes of ZYFO (SRM004), ABBY NORML (SRM005), the LOS ANGELES Legend, R.A.W. (SRM007) aka 6BLOCC, and the Canadian Powerhouse, CAPITAL-J (SRM009).
         </p>
         <p>
 ALL SRM record sleeves are handcrafted silkscreen covers. Currently, the best way to find out of print SRM records in the <a href="http://www.discogs.com/sell/list?label=Superior+Ready+Mix+Recordings&ev=lb">DISCOGS</a> auction website. 
@@ -36,7 +41,7 @@ traks = {
 }
 
 
-traks.sort.reverse.each do |trak, catalog|
+traks.sort.each do |trak, catalog|
   puts <<-TRKS
          <tr><td><span class="meta">#{catalog}</span> <a href="##{trak}" rel="facebox">#{trak.upcase[7..-1]}</a></td></tr>
   TRKS

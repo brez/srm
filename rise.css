@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 a:hover {
+  color: #000;
   margin-bottom: 0px;
   border-bottom: 10px solid yellow;
 }
@@ -79,6 +80,14 @@ p {
   height: 80%;
   float: right;
   margin-right: 25px;
+}
+#intro {
+  width: 68%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+#subintro {
+  padding: 2% 10%;
 }
 #info {
   font-size: 14pt;
