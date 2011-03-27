@@ -46,6 +46,7 @@ def pop(trak, category)
           <param name="movie" value="player/player_mp3.swf" />
           <param name="FlashVars" value="mp3=http://s3.amazonaws.com/srm-#{category}/#{trak}.mp3&showvolume=1&showinfo=1&bgcolor1=ff0b0f&bgcolor2=a40005" />
         </object>
+        (<a class="download" href="http://s3.amazonaws.com/srm-#{category}/#{trak}.mp3">DOWNLOAD</a>)
       </div>
     POP
 end
