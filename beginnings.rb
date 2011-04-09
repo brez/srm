@@ -4,7 +4,7 @@ puts TOP
 
 puts <<-TEXT
       <div id="text">
-        <p class="important" style="width: 429px; text-align: center">
+        <p class="important" style="width: 285px; text-align: center">
           <img src='images/tape.png'/>
         </p>
         <p>
