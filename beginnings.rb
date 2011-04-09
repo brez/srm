@@ -4,6 +4,9 @@ puts TOP
 
 puts <<-TEXT
       <div id="text">
+        <p class="important" style="width: 429px; text-align: center">
+          <img src='images/tape.png'/>
+        </p>
         <p>
 XMEGA, thoroughly rinsed after 2 years in the english / irish jungle scene returns stateside to nurse an epic hangover n generally kick it with 1201 droppn whatever came their way onto a tiny tape recorder. The result is miserable sound quality but a peek into the foundations of SRM. During this time, a fateful house party of masterful skratch precision brings together the renegade line up of 1201, DANGER-S, XMEGA, yanking their name from a cement truck passing by.. SUPERIOR READY MIX.
         </p>
