@@ -82,9 +82,7 @@ p {
   margin-right: 25px;
 }
 #intro {
-  width: 68%;
-  margin: 0 auto;
-  margin-top: 60px;
+
 }
 #subintro {
   padding: 2% 10%;
@@ -96,4 +94,7 @@ p {
 .download a {
   color: #f00;	
 	
+}
+.flash a {
+  color: #ff0;
 }

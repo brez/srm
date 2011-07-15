@@ -13,45 +13,45 @@ puts <<-MIXHEAD
     <script src="facebox/facebox.js" type="text/javascript"></script>
     <script>
       jQuery(document).ready(function($) {
-        $('a[rel*=facebox]').facebox() 
+        $('a[rel*=facebox]').facebox()
       })
     </script>
     <style>
       body {
-	    background-color: #080808;
-	    background-image: url('images/srm-full.jpg');
-	    background-repeat: repeat-x;
-		  background-position: left bottom;
-		  margin: 0;
-	    padding: 0;
-	    font-family: 'Reenie Beanie',  Monaco;
+      background-color: #080808;
+      background-image: url('images/srm-full.jpg');
+      background-repeat: repeat-x;
+      background-position: left bottom;
+      margin: 0;
+      padding: 0;
+      font-family: 'Reenie Beanie',  Monaco;
       font-size: 38pt;
-	  }
- 	  ul {
+    }
+     ul {
         padding: 25px 0 0 30px;
         list-style: none;
       }
-	  li {
-	  }
-	  a {
-	    color: #f00;
-	  }
-	  a:hover {
-	    color: #ff0;
-	    text-decoration: none;
-	  }
-	  #intro {
+    li {
+    }
+    a {
+      color: #f00;
+    }
+    a:hover {
+      color: #ff0;
+      text-decoration: none;
+    }
+    #intro {
         float: left;
-	  }
-	  #write {
-		  background-image: url('images/srm-write-small.png');
-	    background-repeat: repeat-y;
-		  background-position: right;
-		  height: 100%;
-	  }
-	  #facebox .popup {
-	    font-size: 22pt;
-	    font-weight: bold;
+    }
+    #write {
+      background-image: url('images/srm-write-small.png');
+      background-repeat: repeat-y;
+      background-position: right;
+      height: 100%;
+    }
+    #facebox .popup {
+      font-size: 22pt;
+      font-weight: bold;
     }
     #facebox .body {
       background-image: url('images/SRM.jpg');
@@ -71,7 +71,8 @@ mixes = [
 'this_is_war',
 '90_degrees_counter_clockwise',
 '21st_century_digital_surgeon',
-'resignation'
+'resignation',
+'trackter_beam__invasion'
 ]
 
 mixes.each do |mix|
@@ -85,7 +86,7 @@ puts '      </ul>'
 mixes.each do |mix|
   puts pop(mix, 'mixes')
 end
-	  
+
 puts <<-MIXTAIL
     </div>
   </body>
