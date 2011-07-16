@@ -9,7 +9,6 @@ body {
   height: 100%;
   font-family: 'Reenie Beanie',  Monaco;
   font-size: 20pt;
-  background: #fff url('images/srm-bg.png') repeat-y 50% 0%;
 }
 td {
   padding: 0 25px 0 0;
@@ -50,6 +49,7 @@ p {
 }
 .meta {
   font-size: 18pt;
+  color: #ff0;
 }
 .big {
   font-size: 58pt;
@@ -57,29 +57,14 @@ p {
 .popup-trak {
   margin: 10px 0 0 10px;
 }
-.important {
-  border: 6px solid yellow; 
-  margin: 0 10px 10px 10px; 
-  padding: 10px; 
-  font-size: 20pt;
-}
 #message {
   font-size: 18pt;
 }
 #traks {
-  font-size: 28pt;
   margin-left: 25px;
-  width: 50%;
-  text-align: right;
 }
 #traks table {
   float: right;
-}
-#text {
-  width: 50%;
-  height: 80%;
-  float: right;
-  margin-right: 25px;
 }
 #intro {
 
