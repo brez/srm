@@ -54,7 +54,6 @@ TAIL = <<-TAIL
       <div style="clear: both"></div>
       <div id="info">
         <p style="margin-bottom: 0">
-          IF THE EXISTING VIBES SIMPLY WILL NOT BEND TO THE POPULAR WILL.. THEN YOU GOTTA ELIMIATE SAID VIBES
         </p>
       </div>
     </div> <!-- end main -->
