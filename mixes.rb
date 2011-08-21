@@ -53,9 +53,6 @@ puts <<-MIXHEAD
       font-size: 22pt;
       font-weight: bold;
     }
-    #facebox .body {
-      background-image: url('images/SRM.jpg');
-    }
     #facebox .close_image {
       padding: 5px;
       background-color: #fff;
@@ -72,7 +69,8 @@ mixes = [
 '90_degrees_counter_clockwise',
 '21st_century_digital_surgeon',
 'resignation',
-'trackter_beam__invasion'
+'trackter_beam__invasion',
+'neckthrust619'
 ]
 
 mixes.each do |mix|

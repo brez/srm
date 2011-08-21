@@ -1,8 +1,30 @@
 require 'utils'
 
-puts TOPMUSIC
-
-covers = 9.times.map {|rec| "" }.join 
+TOPMUSIC = <<-TOPMUSIC
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>LET ME SERENADE THE STREETS OF LA</title>
+    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+    <link href='rise.css' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <link href="facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="facebox/facebox.js" type="text/javascript"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        $('a[rel*=facebox]').facebox() 
+      })
+    </script>
+    <style>
+      body { 
+        background: #000 url('images/srm-bg.png') repeat-y 50% 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+    TOPMUSIC
 
 puts <<-LEAD 
       <div id="traks">
@@ -108,10 +130,7 @@ plates.each do |plate, meta|
   plate_index += 1
 end
 
-puts <<-MID
-    </table>
-    </div>
-MID
+puts MID
 
 traks.each do |trak, genre|
   puts pop(trak, 'vinyl')
