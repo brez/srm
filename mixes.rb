@@ -44,10 +44,6 @@ puts <<-MIXHEAD
         float: left;
     }
     #write {
-      background-image: url('images/srm-write-small.png');
-      background-repeat: repeat-y;
-      background-position: right;
-      height: 100%;
     }
     #facebox .popup {
       font-size: 22pt;

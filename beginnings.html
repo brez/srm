@@ -12,6 +12,11 @@
       body {
 	    background-image: url(images/imperial2.jpg);
 	  }
+	  a:hover {
+     color: #000;
+      margin-bottom: 0px;
+      border-bottom: 10px solid red;
+    }
 	  .view {
 	    background-color: #ff0;
 	  }
@@ -31,7 +36,10 @@
   </head>
   <body>
     <div id="main">
-      <div id="text" style="width: 80%; margin: 0 auto; padding: 20px; text-align: center; border: #000 solid 4px">
+      <div id="text" style="width: 80%; margin: 0 auto; padding: 20px;">
+        <p class="important" style="width: 285px; text-align: center">
+          <img src='images/tape.png'/>
+        </p>
         <p>
 XMEGA, thoroughly rinsed after 2 years in the english / irish jungle scene returns stateside to nurse an epic hangover n generally kick it with 1201 droppn whatever came their way onto a tiny tape recorder. The result is miserable sound quality but a peek into the foundations of SRM. During this time, a fateful house party of masterful skratch precision brings together the renegade line up of 1201, DANGER-S, XMEGA, yanking their name from a cement truck passing by.. SUPERIOR READY MIX.
         </p>
@@ -59,8 +67,8 @@ What follows is the 'BEGINNINGS', a crude set of complete recordings (from tape)
          <tr><td><span class="meta">(experimental)</span> <a href="#hardcore-number-one" rel="facebox">HARDCORE-NUMBER-ONE</a></td></tr>
          <tr><td><span class="meta">(experimental)</span> <a href="#seven2" rel="facebox">SEVEN2</a></td></tr>
          <tr><td><span class="meta">(blues)</span> <a href="#drum-out-takes" rel="facebox">DRUM-OUT-TAKES</a></td></tr>
-    </table>
-    </div>
+        </table>
+      </div> <!-- end traks -->
       <div id="the-fatman" style="display:none;" class="popup-trak">
 	      THE-FATMAN <br/>
         <object type="application/x-shockwave-flash" data="player/player_mp3.swf" width="200" height="20">
@@ -206,7 +214,11 @@ What follows is the 'BEGINNINGS', a crude set of complete recordings (from tape)
         (<a class="download" href="http://s3.amazonaws.com/srm-beginnings/drum-out-takes.mp3">DOWNLOAD</a>)
       </div>
       <div style="clear: both"></div>
-      </div> <!-- end main -->
+      <div id="info">
+        <p style="margin-bottom: 0">
+        </p>
+      </div>
+    </div> <!-- end main -->
     <div style="clear:both"></div>
     <div id="footer"></div>
   </body>
