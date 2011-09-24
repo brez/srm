@@ -5,6 +5,14 @@
     <title>OWN A PIECE OF THE PUZZLE..</title>
     <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
     <link href='rise.css' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <link href="facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="facebox/facebox.js" type="text/javascript"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        $('a[rel*=facebox]').facebox()
+      })
+    </script>
     <style>
       body {
       background-color: #FFF;
@@ -32,6 +40,7 @@
     }
     .recrd {
 	  border: #ff0 solid 15px;
+      width: 400px;
 	}
     .left {
 	  float: left;
@@ -69,7 +78,7 @@
 	       "BASS ALIENS" b/w </br>
 	       "IMPERIAL DECIBEL DESTROYER"<br/>
            SRM RECORDINGS, NYC<br/>
-	       <a class="listen" href="#">LISTEN</a><br/>
+           <a href="#srm010" class="listen" rel="facebox">LISTEN</a><br/>
 	       PURCHASE VINYL ($10): ____  <br/>
 		   PURCHASE DIGITAL ($5): ____  <br/> 
 		   <span class="subscript">
@@ -87,6 +96,13 @@
         </li>
         <li><br/></li>
       </ul>
+   </div>
+   <div id="srm010" style="display:none;" class="popup-trak">
+	 SRM010 SAMPLE <br/>
+     <object type="application/x-shockwave-flash" data="player/player_mp3.swf" width="200" height="20">
+       <param name="movie" value="player/player_mp3.swf" />
+       <param name="FlashVars" value="mp3=http://s3.amazonaws.com/srm-buy/srm010.mp3&showvolume=1&showinfo=1&bgcolor1=ff0b0f&bgcolor2=a40005" />
+     </object>
    </div>
   </body>
 </html>
