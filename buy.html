@@ -8,6 +8,7 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <link href="facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
     <script src="facebox/facebox.js" type="text/javascript"></script>
+    <script type='text/javascript' src='jwplayer/jwplayer.js'></script>
     <script>
       jQuery(document).ready(function($) {
         $('a[rel*=facebox]').facebox()
@@ -40,11 +41,12 @@
     }
     .recrd {
 	  border: #ff0 solid 15px;
-      width: 400px;
+      width: 450px;
 	}
     .left {
 	  float: left;
-	  padding-left: 20px;
+	  padding: 10px;
+	  background-color: #fff;
 	}
 	.srm {
 	  font-size: 45pt;
@@ -84,7 +86,7 @@
 	       <img class="recrd" src="images/010.jpg"/>
 	     </div>
 	     <div class="left">
-	       "BASS ALIENS" b/w </br>
+	       </br>"BASS ALIENS" b/w </br>
 	       "IMPERIAL DECIBEL DESTROYER"<br/>
            <a href="#srm010" class="listen" rel="facebox">LISTEN</a><br/>
 	       <div class="purchase">
@@ -100,12 +102,7 @@
 		     </div>
 		   </div>
 		   <span class="subscript">
-		   <span class="note">NOTE:</span> DIGITAL PURCHASE INCLUDES LOOPS FOR REMIXING
-		
-		
-	<!--	goes to separate app for digital downloads - is valid until first request - message is "IMPORTANT  - PLEASE DOWNLOAD NOW - THIS FILE WILL SELF DESTRUCT IN #{24} HOURS - just use symlinks that are deleted after 24 hours
-		-->
-	       </span>
+		   <span class="note">NOTE:</span> DIGITAL PURCHASE INCLUDES LOOPS FOR REMIXING</span>
 	     </div>
 	     <div style="clear: both"></div>
         </li>
@@ -114,10 +111,20 @@
    </div>
    <div id="srm010" style="display:none;" class="popup-trak">
 	 SRM010 SAMPLE <br/>
-     <object type="application/x-shockwave-flash" data="player/player_mp3.swf" width="200" height="20">
-       <param name="movie" value="player/player_mp3.swf" />
-       <param name="FlashVars" value="mp3=http://s3.amazonaws.com/srm-buy/srm010.mp3&showvolume=1&showinfo=1&bgcolor1=ff0b0f&bgcolor2=a40005" />
-     </object>
+
+   <div id='mediaplayer'></div>
+
+   <script type="text/javascript">
+     jwplayer('mediaplayer').setup({
+       'flashplayer': 'jwplayer/player.swf',
+       'id': 'playerID',
+       'width': '560',
+       'height': '24',
+       'file': 'http://s3.amazonaws.com/srm-buy/srm010.mp3',
+       'controlbar': 'bottom'
+     });
+   </script>
+
    </div>
   </body>
 </html>
